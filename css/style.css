@@ -30,40 +30,37 @@ nav ul li a:hover {
     color: #1d1c1d;
 }
 
-/* Styling fr first section */
+/* Styling for first section */
 #first {
+    display: flex;
     padding-top: 210px;
-    padding-bottom: 50px;
+    padding-bottom: 210px;
     background-color: #141414;
-    height: 627px;
+    height: 630px;
 }
 
-/* #first .col {
+#first .col {
     justify-content: center;
     flex-direction: column;
     display: flex;
-} */
+}
 
 #first h1 {
-    text-transform: none;
     font-size: 60px;
     font-weight: 900;
     font-family: 'Sora', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #fff;
     text-align: center;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     line-height: 86px;
     letter-spacing: -0.02em;
 }
 
 #first h1 span {
     color: #88888d;
-    text-align: center;
-    align-content: center;
 }
 
-#first p {
-    position: absolute;
+#first h4 {
     color: #fff;
     height: 102px;
     font-family: 'Sora';
@@ -72,16 +69,16 @@ nav ul li a:hover {
     font-weight: 400;
     line-height: 30px;
     display: flex;
+    justify-items: center;
+    align-items: center;
     text-align: center;
-    justify-content: center;
     letter-spacing: -0.02em;
-    width: 800px;
-    margin-left: 150px;
+    width: 100%;
+    margin-top: 10px;
 }
 
 #first button {
     box-sizing: border-box;
-    position: absolute;
     width: 180px;
     height: 50px;
     border-radius: 25px;
@@ -93,8 +90,7 @@ nav ul li a:hover {
     line-height: 24px;
     font-size: 20px;
     color: #000;
-    margin-top: 90px;
-    margin-left: 450px;
+    margin-top: 30px;
 }
 
 /* Styling for 2nd section */
@@ -210,15 +206,12 @@ nav ul li a:hover {
 
 #fifth img {
     min-height: 30vh;
-    /* max-width: 130% !important; */
-    /* width: 750px; */
     margin-top: 50px;
     border-radius: 12px;
 }
 
 #fifth h3 {
-    /* margin-top: 50px;
-    margin-bottom: 120px; */
+    margin-top: 50px;
     text-align: left;
     color: #88888D;
     font-family: 'Sora';
@@ -227,7 +220,6 @@ nav ul li a:hover {
     font-size: 40px;
     line-height: 30px;
     height: 30px;
-    /* margin-top: 20px; */
 }
 
 #fifth p {
@@ -244,6 +236,7 @@ nav ul li a:hover {
 #sixth {
     background-color: #141414;
     height: 400px;
+    padding-top: 100px;
 }
 
 #sixth h3 {
@@ -254,9 +247,24 @@ nav ul li a:hover {
     font-family: 'Sora';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 50px;
     height: 30px;
+}
+
+#card-row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#card {
+    background-color: #212020;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Sora';
+    font-size: 16px;
 }
 
 /* Styling for 7th section */
@@ -267,16 +275,15 @@ nav ul li a:hover {
 }
 
 #seventh h3 {
-    /* margin-top: 50px;
-    margin-bottom: 120px; */
     text-align: left;
     color: #88888D;
     font-family: 'Sora';
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
-    line-height: 50px;
+    line-height: 40px;
     height: 30px;
+    margin-bottom: 50px;
 }
 
 #seventh p {
