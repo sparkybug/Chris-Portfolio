@@ -19,24 +19,40 @@ nav {
     color: #1d1c1d;
 }
 
+nav ul {
+    z-index: 9;
+}
+
 nav ul li a {
     color: #fff;
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: auto 10px;
+    z-index: 9;
 }
 
 nav ul li a:hover {
     color: #1d1c1d;
 }
 
+.color-me {
+    color: #fff;
+}
+
 /* Styling for first section */
 #first {
+    /* background-image: url("imgs/bg-1.png");
+     */
+     /* background-image: conic-gradient(at 60% 45%, black, #FFD84B); */
     display: flex;
     padding-top: 210px;
     padding-bottom: 210px;
     background-color: #141414;
     height: 630px;
+}
+
+#bg-first {
+    
 }
 
 #first .col {
@@ -236,7 +252,8 @@ nav ul li a:hover {
 #sixth {
     background-color: #141414;
     height: 400px;
-    padding-top: 100px;
+    padding-top: 100px; 
+    height: 600px;
 }
 
 #sixth h3 {
@@ -265,12 +282,13 @@ nav ul li a:hover {
     border-radius: 10px;
     font-family: 'Sora';
     font-size: 16px;
+    margin: 0px 40px;
 }
 
 /* Styling for 7th section */
 #seventh {
     background-color: #141414;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 
