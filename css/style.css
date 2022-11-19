@@ -155,6 +155,25 @@ nav ul li a:hover {
     /* position: absolute; */
 }
 
+#third .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#third .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#third img {
+    min-height: 30vh;
+    max-width: 130% !important;
+    width: 500px;
+    /* margin-top: 50px; */
+}
+
+
 /* Styling for fourth section */
 #fourth {
     background-color: #141414;
