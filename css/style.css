@@ -236,6 +236,11 @@ nav ul li a:hover {
     margin-left: 450px;
 }
 
+#fourth button a {
+    text-decoration: none;
+    color: #1d1c1d;
+}
+
 /* Styling fr fifth section */
 #fifth {
     background-color: #141414;
