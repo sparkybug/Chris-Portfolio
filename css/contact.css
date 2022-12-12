@@ -86,11 +86,6 @@ nav ul li a:hover {
     color: #000;
 }
 
-#first #form-row {
-    display: flex;
-    justify-content: center;
-}
-
 #first form {
     background-color: #141414;
     border-radius: 20px;
