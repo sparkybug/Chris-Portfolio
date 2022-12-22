@@ -227,7 +227,7 @@ body {
         padding-bottom: 50px;
     }
 
-    #seventh .header-3 {
+    #seventh .header {
         /* margin-top: 20px;
         margin-bottom: 20px; */
         text-align: left;
@@ -235,7 +235,7 @@ body {
         font-family: 'Sora';
         font-style: normal;
         font-weight: 700;
-        font-size: 18px;
+        font-size: 188px;
         line-height: 20px;
         height: 10px;
     }
