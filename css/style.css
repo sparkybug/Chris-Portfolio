@@ -113,7 +113,7 @@ body {
 
     #third {
         max-width: 100%;
-        max-height: 150px;
+        max-height: 600px;
     }
 
     #third .header-1 {
@@ -124,15 +124,17 @@ body {
         font-weight: 700;
         font-size: 11px;
         line-height: 20px;
+        text-align: center;
     }
 
     #third .para {
         font-family: 'Lato';
         font-style: normal;
         font-weight: 400;
-        font-size: 6px;
-        line-height: 7.5px;
+        font-size: 12px;
+        /* line-height: 7.5px; */
         color: #FFFFFF;
+        text-align: center;
     }
     
     #third .col {
@@ -147,13 +149,16 @@ body {
     }
     
     #third #img {
-        /* min-height: 30vh;
-        max-width: 15% !important; */
-        margin-top: -75px;
+        min-height: 30vh;
+        max-width: 68% !important;
+        margin: auto 50px;
     }
     
     #fourth .header-3 {
         font-size: 24px;
+        /* padding-top: 5px; */
+        margin-top: -15px;
+        margin-bottom: 3px;
     }
 
     #fourth .button {
@@ -163,10 +168,12 @@ body {
 
     #fifth .header-3 {
         font-size: 20px;
+        text-align: center;
     }
 
     #fifth .para {
         font-size: 14px;
+        text-align: center;
     }
 
     #fifth img {
@@ -175,7 +182,7 @@ body {
 
     #sixth {
         margin-top: -100px;
-        max-height: 300px;
+        max-height: 600px;
     }
 
     #sixth .header-3 {
@@ -227,7 +234,7 @@ body {
         padding-bottom: 50px;
     }
 
-    #seventh .header {
+    #seventh #header {
         /* margin-top: 20px;
         margin-bottom: 20px; */
         text-align: left;
@@ -235,35 +242,73 @@ body {
         font-family: 'Sora';
         font-style: normal;
         font-weight: 700;
-        font-size: 188px;
+        font-size: 20px;
         line-height: 20px;
         height: 10px;
+    }
+
+    #seventh #card-row {
+        height: 1600px;
     }
 
     #seventh .para {
         font-family: 'Lato';
         font-style: normal;
         font-weight: 400;
-        font-size: 6px;
-        line-height: 7.5px;
+        font-size: 12px;
         color: #FFFFFF;
     }
     
-    #seventh button {
+    #seventh .button {
         box-sizing: border-box;
         /* position: absolute; */
-        width: 180px;
-        height: 50px;
+        width: 80%;
+        height: 40px;
         border-radius: 25px;
         background-color: #eeeeee;
         border: 1px solid #fff;
         font-family: 'Lato';
         font-style: normal;
         font-weight: 600;
-        line-height: 24px;
-        font-size: 20px;
+        /* line-height: 24px; */
+        font-size: 12px;
         color: #000;
     }
+
+    /* Styling for footer */
+    #box ul {
+        list-style-type: none;
+        padding-top: 0px;
+        overflow: hidden;
+        padding-top: 10px;
+    }
+
+    #box ul li a {
+        color: #fff;
+        font-size: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: inline;
+    }
+    
+    #box li {
+        float: left;
+    }
+
+    #box .col {
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    #box .img-col {
+        justify-content: flex-end;
+        margin-top: 100px;
+    }
+
+    #box img {
+        width: 75px;
+    }
+
 
   }
 
@@ -636,14 +681,10 @@ nav ul li a:hover {
 /* Styling for footer */
 #box ul {
     list-style-type: none;
-    padding-top: 0px;
     overflow: hidden;
-    min-width: 1000px;
-    /* max-width: max-content; */
-    /* margin-right: 90px; */
     padding-top: 10px;
-    /* padding-right: 50px; */
-    /* margin-right: 20px; */
+    /* padding-left: 50px;
+    margin-left: 20px; */
   }
 
 #box ul li a {
@@ -680,7 +721,7 @@ nav ul li a:hover {
 
 #box img {
     /* min-height: 30vh; */
-    max-width: 60% !important;
+    max-width: 40% !important;
     /* max-width: 50px; */
     /* margin-top: 50px; */
 }
