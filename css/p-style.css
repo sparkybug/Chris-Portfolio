@@ -135,8 +135,13 @@
 
     #blist {
         margin-left: -45px;
-        padding-right: 50px;
+        padding-left: -500px;
         line-height: 50px;
+    }
+
+    #copyright {
+        margin-left: -20px;
+        font-size: 14.5px;
     }
 }
 
