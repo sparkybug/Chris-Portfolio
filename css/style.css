@@ -235,15 +235,15 @@ body {
     }
 
     #seventh #header {
-        /* margin-top: 20px;
-        margin-bottom: 20px; */
+        padding-bottom: 20px;
         text-align: left;
         color: #88888D;
         font-family: 'Sora';
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 27px;
+        text-align: center;
+        line-height: 27px;
         height: 10px;
     }
 
@@ -251,18 +251,24 @@ body {
         height: 1600px;
     }
 
-    #seventh .para {
+    #seventh .para1 {
+        text-align: center;
         font-family: 'Lato';
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
+        font-size: 20px;
         color: #FFFFFF;
+    }
+
+    #seventh #hire {
+        display: grid;
+        align-items: center;
+        justify-content: center;
     }
     
     #seventh .button {
         box-sizing: border-box;
-        /* position: absolute; */
-        width: 80%;
+        width: 40%;
         height: 40px;
         border-radius: 25px;
         background-color: #eeeeee;
@@ -270,9 +276,9 @@ body {
         font-family: 'Lato';
         font-style: normal;
         font-weight: 600;
-        /* line-height: 24px; */
         font-size: 12px;
         color: #000;
+        margin: auto;
     }
 
     /* Styling for footer */
@@ -309,7 +315,16 @@ body {
         width: 75px;
     }
 
+    #blist {
+        margin-left: -30px;
+        padding-right: 150px;
+        line-height: 50px;
+    }
 
+    #copyright {
+        margin-left: -20px;
+        font-size: 14.5px;
+    }
   }
 
 /* Navbar styling */
@@ -566,12 +581,14 @@ nav ul li a:hover {
 #fifth .img-col {
     justify-content: flex-end;
     margin-top: 100px;
+    /* margin-left: 50px; */
 }
 
 #fifth img {
     min-height: 30vh;
     margin-top: 50px;
     border-radius: 12px;
+    /* padding-right: 109px; */
 }
 
 #fifth h3 {

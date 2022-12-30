@@ -1,3 +1,146 @@
+@media only screen and (max-width: 600px) {
+    body {
+        display: block;
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        display: flex;
+    }
+
+    .navbar-nav {
+        overflow-x: hidden;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-brand img {
+        max-height: 10px;
+        max-width: 50% !important;
+    }
+
+    #sect-1 {
+        background-color: #141414;
+        padding-top: 200px;
+    }
+    
+    #sect-1 h2 {
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 50px;
+        text-align: center;
+        color: #88888D;
+    }
+    
+    #sect-1 h4 {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+
+    #fourth {
+        background-color: #141414;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    #fourth #header {
+        text-align: center;
+        color: #88888D;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 27px;
+        height: 10px;
+    }
+
+    #fourth #card-row {
+        height: 1600px;
+    }
+
+    #fourth .para {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    #fourth #hire {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #fourth .button {
+        box-sizing: border-box;
+        /* position: absolute; */
+        width: 40%;
+        height: 40px;
+        border-radius: 25px;
+        background-color: #eeeeee;
+        border: 1px solid #fff;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        /* line-height: 24px; */
+        font-size: 12px;
+        color: #000;
+        margin: auto;
+    }
+
+    /* Styling for footer */
+    #box1 ul {
+        list-style-type: none;
+        padding-top: 0px;
+        overflow: hidden;
+        padding-top: 10px;
+    }
+
+    #box1 ul li a {
+        color: #fff;
+        font-size: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: inline;
+    }
+    
+    #box1 li {
+        float: left;
+    }
+
+    #box1 .col {
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    #box1 .img-col {
+        justify-content: flex-end;
+        margin-top: 100px;
+    }
+
+    #box1 img {
+        width: 75px;
+    }
+
+    #blist {
+        margin-left: -45px;
+        padding-right: 50px;
+        line-height: 50px;
+    }
+}
+
+
 body {
     background-color: #111111;
     overflow-x: hidden;
