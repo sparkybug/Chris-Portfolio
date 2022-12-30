@@ -22,30 +22,82 @@
 
     #sect-1 {
         background-color: #141414;
-        padding-top: 200px;
+        padding-top: 250px;
+        padding-bottom: 50px;
     }
     
-    #sect-1 h2 {
+    #sect-1 #h2 {
         font-family: 'Sora';
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
-        line-height: 50px;
+        font-size: 30px;
+        line-height: 40px;
         text-align: center;
         color: #88888D;
     }
     
-    #sect-1 h4 {
+    #sect-1 p {
         font-family: 'Lato';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 30px;
+        line-height: 5px;
         text-align: center;
         letter-spacing: -0.02em;
         color: #FFFFFF;
     }
 
+    #second {
+        background-color: #141414;
+        height: 150px;
+        display: flex;
+        justify-items: center;
+        padding-top: 50px;
+    }
+    
+    #box ul {
+        list-style-type: none;
+        padding-top: 0px;
+        overflow: hidden;
+        background-color: #333333;
+      }
+      
+    #box li {
+        float: left;
+        }
+      
+    #box li a {
+        display: flex;
+        color: white;
+        text-align: left;
+        padding: 16px;
+        text-decoration: none;
+      }
+      
+    #box li a:hover {
+        background-color: #111111;
+        color: #D4B877;;
+      }
+    
+    #third {
+        background-color: #141414;
+    }
+    
+    #third p {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+    
+    #third img {
+        min-height: 30vh;
+        max-width: 100% !important;
+        /* width: 100px; */
+    }
+    
     #fourth {
         background-color: #141414;
         padding-top: 100px;
@@ -61,10 +113,6 @@
         font-size: 27px;
         line-height: 27px;
         height: 10px;
-    }
-
-    #fourth #card-row {
-        height: 1600px;
     }
 
     #fourth .para {
@@ -84,7 +132,6 @@
     
     #fourth .button {
         box-sizing: border-box;
-        /* position: absolute; */
         width: 40%;
         height: 40px;
         border-radius: 25px;
@@ -93,7 +140,6 @@
         font-family: 'Lato';
         font-style: normal;
         font-weight: 600;
-        /* line-height: 24px; */
         font-size: 12px;
         color: #000;
         margin: auto;
@@ -201,7 +247,7 @@ nav ul li a:hover {
     color: #88888D;
 }
 
-#sect-1 h4 {
+#sect-1 p {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
