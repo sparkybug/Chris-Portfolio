@@ -23,7 +23,7 @@
     #sect-1 {
         background-color: #141414;
         padding-top: 250px;
-        padding-bottom: 50px;
+        padding-bottom: 10px;
     }
     
     #sect-1 #h2 {
@@ -50,27 +50,29 @@
     #second {
         background-color: #141414;
         height: 150px;
-        display: flex;
-        justify-items: center;
-        padding-top: 50px;
+        padding-bottom: 150px;
     }
+    
     
     #box ul {
         list-style-type: none;
-        padding-top: 0px;
         overflow: hidden;
         background-color: #333333;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
       }
       
     #box li {
+        display: inline;
         float: left;
         }
       
     #box li a {
-        display: flex;
+        display: inline;
         color: white;
         text-align: left;
-        padding: 16px;
+        /* padding: 16px; */
         text-decoration: none;
       }
       
@@ -81,6 +83,7 @@
     
     #third {
         background-color: #141414;
+        padding-top: 100px;
     }
     
     #third p {
@@ -260,10 +263,11 @@ nav ul li a:hover {
 
 #second {
     background-color: #141414;
-    height: 150px;
+    height: 100px;
     display: flex;
     justify-items: center;
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 100px;
 }
 
 #box ul {
@@ -272,6 +276,8 @@ nav ul li a:hover {
     padding-top: 0px;
     overflow: hidden;
     background-color: #333333;
+    padding-left: 100px;
+    padding-right: 100px;
   }
   
 #box li {
@@ -371,7 +377,7 @@ nav ul li a:hover {
     list-style-type: none;
     padding-top: 0px;
     overflow: hidden;
-    min-width: 1000px;
+    /* min-width: 1000px; */
     /* max-width: max-content; */
     /* margin-right: 90px; */
     padding-top: 10px;

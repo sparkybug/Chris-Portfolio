@@ -3,7 +3,6 @@ body {
     overflow-x: hidden;
 }
 
-
 /* Navbar styling */
 nav {
     background-color: #fff;
@@ -180,4 +179,54 @@ nav ul li a:hover {
     max-width: 60% !important;
     /* max-width: 50px; */
     /* margin-top: 50px; */
+}
+
+/* #outer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 720px;
+    max-height: 500px;
+} */
+
+#outer {
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    /* grid-auto-rows: 200px; */
+    grid-gap: 20px;
+    padding: 100px;
+    /* max-width: 500px; */
+}
+
+#outer .div {
+    max-width: 100px;
+    flex: 0 0 50px;
+    margin: 5px;
+    background-color: #141414;
+}
+
+#cardImg {
+    border: 1.5px solid #D4B877;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+#cardImg img{
+    max-width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cardImg h4 {
+    color: #D4B877;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#cardImg p {
+    color: #141414;
+    font-size: 12px;
+    font-weight: 600;
 }
