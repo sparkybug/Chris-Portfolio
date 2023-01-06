@@ -605,7 +605,8 @@ canvas {
 }
 
 #fifth img {
-    min-height: 30vh;
+    /* min-height: 30vh; */
+    max-width: 500px;
     margin-top: 50px;
     border-radius: 12px;
     /* padding-right: 109px; */
