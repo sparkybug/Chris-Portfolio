@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/');
+* {
+    margin: 0;
+    padding: 0;
+}
+
 
 body {
     display: block;
     overflow-x: hidden;
 }
+
+
 
 /* For desktop: */
 .col-1 {width: 8.33%;}
@@ -42,7 +49,7 @@ body {
         max-width: 40% !important;
     }
 
-    #first {
+    .first {
         display: block;
         /* font-size: 12px; */
         padding-top: 80px;
@@ -70,7 +77,7 @@ body {
         50% { border-color: #88888d }
       }
 
-    #first .header-1 {
+    .first .header-1 {
         font-size: 16px;
         font-weight: 900;
         font-family: 'Sora', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -80,11 +87,11 @@ body {
         letter-spacing: -0.02em; 
     }
 
-    #first .header-4 {
+    .first .header-4 {
         font-size: 14px;
     }
 
-    #first .button {
+    .first .button {
         /* position: relative; */
         margin-top: 50px;
     }
@@ -364,7 +371,18 @@ nav ul li a:hover {
 }
 
 /* Styling for first section */
-#first {
+#particles-js {
+    height: 63vh;
+    width: 100%;
+    position: absolute;
+    z-index: 4;
+}
+
+canvas {
+    display: block;
+  }
+
+.first {
     /* background-image: url("imgs/bg-1.png");
      */
      /* background-image: conic-gradient(at 60% 45%, black, #FFD84B); */
@@ -375,6 +393,8 @@ nav ul li a:hover {
     height: 630px;
     width: 100%;
     overflow-x: hidden;
+    margin: 0;
+    /* position: absolute; */
 }
 
 .typewriter h1 {
@@ -397,13 +417,13 @@ nav ul li a:hover {
     /* 100% { border-color: #88888D;} */
   }
 
-#first .col {
+.first .col {
     justify-content: center;
     flex-direction: column;
     display: flex;
 }
 
-#first h1 {
+.first h1 {
     font-size: 60px;
     font-weight: 900;
     font-family: 'Sora', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -413,11 +433,11 @@ nav ul li a:hover {
     letter-spacing: -0.02em;
 }
 
-#first h1 span {
+.first h1 span {
     color: #88888d;
 }
 
-#first h4 {
+.first h4 {
     color: #fff;
     height: 102px;
     font-family: 'Sora';
@@ -434,7 +454,7 @@ nav ul li a:hover {
     margin-top: 10px;
 }
 
-#first button {
+.first button {
     box-sizing: border-box;
     width: 180px;
     height: 50px;
