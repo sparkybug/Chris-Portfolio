@@ -240,6 +240,17 @@ nav ul li a:hover {
     /* height: 600px; */
 }
 
+#particles-js3 {
+    height: 120vh;
+    width: 100%;
+    position: absolute;
+    z-index: 4;
+}
+
+canvas {
+    display: block;
+}
+
 #sect-1 h2 {
     font-family: 'Sora';
     font-style: normal;
