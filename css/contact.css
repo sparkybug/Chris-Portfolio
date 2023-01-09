@@ -31,8 +31,22 @@ nav ul li a:hover {
 }
 
 /* Styling for first section */
+#particles-js {
+    height: 63vh;
+    width: 100%;
+    position: absolute;
+    z-index: 4;
+}
+
 #particles-js1 {
     height: 120vh;
+    width: 100%;
+    position: absolute;
+    z-index: 4;
+}
+
+#particles-js2 {
+    height: 20vh;
     width: 100%;
     position: absolute;
     z-index: 4;
@@ -45,7 +59,7 @@ canvas {
 #first {
     display: flex;
     padding-top: 210px;
-    padding-bottom: 210px;
+    padding-bottom: 20px;
     background-color: #141414;
     /* height: 630px; */
     max-width: 100%;

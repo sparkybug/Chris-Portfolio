@@ -240,8 +240,22 @@ nav ul li a:hover {
     /* height: 600px; */
 }
 
-#particles-js3 {
+#particles-js {
+    height: 63vh;
+    width: 100%;
+    position: absolute;
+    z-index: 4;
+}
+
+#particles-js1 {
     height: 120vh;
+    width: 100%;
+    position: absolute;
+    z-index: 4;
+}
+
+#particles-js2 {
+    height: 20vh;
     width: 100%;
     position: absolute;
     z-index: 4;
