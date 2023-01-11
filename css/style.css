@@ -790,3 +790,11 @@ canvas {
     /* max-width: 50px; */
     /* margin-top: 50px; */
 }
+
+.anim.w3-animate-top {
+    animation: 1.6s ease 0s normal none 1 running animatetop;
+}
+
+.anim.w3-animate-zoom {
+    animation: 1.6s ease 0s normal none 1 running animatezoom;
+}
