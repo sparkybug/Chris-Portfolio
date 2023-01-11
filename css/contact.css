@@ -46,7 +46,7 @@ nav ul li a:hover {
 }
 
 #particles-js2 {
-    height: 20vh;
+    height: 50vh;
     width: 100%;
     position: absolute;
     z-index: 4;
@@ -184,6 +184,7 @@ canvas {
     padding-top: 10px;
     /* padding-right: 50px; */
     /* margin-right: 20px; */
+    /* z-index: 9999; */
   }
 
 #box ul li a {
@@ -274,6 +275,7 @@ canvas {
     font-size: 12px;
     font-weight: 600;
 }
+
 
 @media only screen and (max-width: 600px) {
     body {

@@ -133,6 +133,7 @@ canvas {
     text-align: right;
     color: #D4B877;
     margin-bottom: 16px;
+    z-index: 9999;
 }
 
 
