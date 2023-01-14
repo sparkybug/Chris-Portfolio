@@ -641,6 +641,7 @@ canvas {
 
 #fifth h3 {
     margin-top: 50px;
+    margin-bottom: 20px;
     text-align: left;
     color: #88888D;
     font-family: 'Sora';
@@ -658,17 +659,22 @@ canvas {
     font-size: 19px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    /* line-height: 30px; */
 }
 
 .imgText {
     display: flex;
 }
 
-.imgText img {
-    max-width: 100%;
-    max-height: 100px;
-    margin: 2px;
+.imgText #paragraph {
+    font-size: 19px;
+    margin-top: 40px;
+}
+
+#image {
+    width: 20px;
+    max-height: 20px;
+    /* margin: 2px; */
 }
 
 /* Styling for 6th section */
