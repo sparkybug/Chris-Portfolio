@@ -641,7 +641,7 @@ canvas {
 
 #fifth h3 {
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: -10px;
     text-align: left;
     color: #88888D;
     font-family: 'Sora';
@@ -664,6 +664,7 @@ canvas {
 
 .imgText {
     display: flex;
+    margin-bottom: -45px;
 }
 
 .imgText #paragraph {
