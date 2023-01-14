@@ -90,7 +90,7 @@
 
         <!-- 2nd section -->
         <section id="second">
-            <div id="particles-js1"></div>
+            <!-- <div id="particles-js1"></div> -->
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -168,7 +168,7 @@
 
         <!-- 5th section -->
         <section id="fifth">
-            <div id="particles-js2"></div>
+            <!-- <div id="particles-js2"></div> -->
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 w3-animate-opacity">
@@ -198,27 +198,34 @@
                 </div>
 
                 <div class="row" id="card-row">
-                        <div class="col-4 col-sm-12 col-xs-12 card p-3 m-2 bg-dark text-white text-center">
-                            <p class="card-text para"> Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nullam congue sem pellentesque quis. Cursis volutat congue lorem alliquam, odio alliqam sed vitae.</p>
-
-                            <h5 class="header-5">Promise Nwanozie</h5>
-                            <h6 class="header-6">CEO CerebroHive Technologies</h6>
-                        </div> 
-                   
-                        <div class="col-3 col-sm-12 col-xs-12 card p-3 m-4 bg-dark text-white text-center">
-                            <p class="card-text para"> Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nullam congue sem pellentesque quis. Cursis volutat congue lorem alliquam, odio alliqam sed vitae.</p>
-
-                            <h5 class="header-5">Promise Nwanozie</h5>
-                            <h6 class="header-6">CEO CerebroHive Technologies</h6>
-                        </div>    
-                   
-
-                        <div class="col-4 col-sm-12 col-xs-12 card p-3 m-2 bg-dark text-white text-center">
-                            <p class="card-text para"> Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nullam congue sem pellentesque quis. Cursis volutat congue lorem alliquam, odio alliqam sed vitae.</p>
-
-                            <h5 class="header-5">Promise Nwanozie</h5>
-                            <h6 class="header-6">CEO CerebroHive Technologies</h6> 
+                   <div class="swiper mySwiper swiper-h">
+                    <div class="swipper-wrapper">
+                        <div class="swiper-slide" id="slider">
+                            <div class="col-4 col-sm-12 col-xs-12 card p-3 m-2 bg-dark text-white text-center">
+                            
+                                <p class="card-text para"> Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nullam congue sem pellentesque quis. Cursis volutat congue lorem alliquam, odio alliqam sed vitae.</p>
+    
+                                <h5 class="header-5">Promise Nwanozie</h5>
+                                <h6 class="header-6">CEO CerebroHive Technologies</h6>
+                            </div> 
+                       
+                            <div class="col-3 col-sm-12 col-xs-12 card p-3 m-4 bg-dark text-white text-center">
+                                <p class="card-text para"> Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nullam congue sem pellentesque quis. Cursis volutat congue lorem alliquam, odio alliqam sed vitae.</p>
+    
+                                <h5 class="header-5">Promise Nwanozie</h5>
+                                <h6 class="header-6">CEO CerebroHive Technologies</h6>
+                            </div>    
+                       
+    
+                            <div class="col-4 col-sm-12 col-xs-12 card p-3 m-2 bg-dark text-white text-center">
+                                <p class="card-text para"> Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nullam congue sem pellentesque quis. Cursis volutat congue lorem alliquam, odio alliqam sed vitae.</p>
+    
+                                <h5 class="header-5">Promise Nwanozie</h5>
+                                <h6 class="header-6">CEO CerebroHive Technologies</h6> 
+                        </div>
+                        </div>
                     </div>
+                   </div>     
                 </div>
             </div>
         </section>
@@ -311,6 +318,36 @@
                     </div>
                 </div>
         </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 50,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          loop: true,
+        },
+
+          // Navigation arrows
+        // navigation: {
+        //   nextEl: '.swiper-button-next',
+        //   prevEl: '.swiper-button-prev',
+        // },
+      });
+      var swiper2 = new Swiper(".mySwiper2", {
+        direction: "vertical",
+        spaceBetween: 50,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          loop: true,
+        },
+      });
+    </script>
 
     <script src="particles.js"></script>
     <script src="app.js"></script>

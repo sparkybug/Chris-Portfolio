@@ -303,6 +303,7 @@ canvas {
     background-color: #333333;
     padding-left: 100px;
     padding-right: 100px;
+    border: none;
   }
   
 #box li {
@@ -316,8 +317,13 @@ canvas {
     padding: 16px;
     text-decoration: none;
   }
+
+#box li a:focus {
+    color: #D4B877;
+    background-color: #141414;
+}  
   
-#box li a:hover {
+#box li a:hover, a:active {
     background-color: #111111;
     color: #D4B877;;
   }
@@ -351,6 +357,35 @@ canvas {
     min-height: 30vh;
     max-width: 100% !important;
     /* width: 500px; */
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.pagination a {
+    color: #fff;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a:focus, a:active {
+    background-color: #D4B877;
+    color: #fff;
+    color: #141414;
+    font-weight: 500;
+    border-radius: 15px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #D4B877;
+    color: #141414;
+    font-weight: 500;
+    border-radius: 15px;
 }
 
 /* Styling for 4th section */

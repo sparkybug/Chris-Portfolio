@@ -699,6 +699,15 @@ canvas {
     max-width: fit-content;
 }
 
+#slider {
+    display: grid;
+    grid-template-columns: repeat(3, 900px);
+    /* grid-auto-rows: 200px; */
+    grid-gap: 10px;
+    padding: 0px 5px;
+    /* max-width: 500px; */
+}
+
 /* Styling for 7th section */
 #seventh {
     background-color: #141414;
