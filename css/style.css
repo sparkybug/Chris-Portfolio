@@ -664,9 +664,8 @@ canvas {
 /* Styling for 6th section */
 #sixth {
     background-color: #141414;
-    height: 400px;
+    height: 450px;
     padding-top: 100px; 
-    height: 600px;
 }
 
 #sixth h3 {
@@ -695,16 +694,17 @@ canvas {
     border-radius: 10px;
     font-family: 'Sora';
     font-size: 16px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     max-width: fit-content;
 }
 
 #slider {
     display: grid;
-    grid-template-columns: repeat(3, 900px);
+    /* grid-template-columns: repeat(3, auto); */
+    grid-template-columns: auto auto auto;
     /* grid-auto-rows: 200px; */
     grid-gap: 10px;
-    padding: 0px 5px;
+    padding: 10px;
     /* max-width: 500px; */
 }
 

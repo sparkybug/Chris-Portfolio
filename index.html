@@ -17,6 +17,70 @@
      <!-- CSS Only -->
      <link rel="stylesheet" href="css/style.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+     <!-- Demo styles -->
+     <style>
+        /* html,
+        body {
+          position: relative;
+          height: 100%;
+        }
+  
+        body {
+          background: #eee;
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: 12px;
+          color: #000;
+          margin: 0;
+          padding: 0;
+        } */
+  
+        .swiper {
+          width: 100%;
+          height: 100%;
+        }
+  
+        .swiper-slide {
+          text-align: center;
+          font-size: 12px;
+          /* background: #fff; */
+  
+          /* Center slide text vertically */
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+        }
+
+        .swiper-pagination {
+            padding-top: 150px;
+        }
+
+        .swiper-button-prev, .swiper-button-next {
+            color: #D4B877;
+        }
+  
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      </style>
 </head>
 <body>
         <!-- Navbar code -->
@@ -199,32 +263,105 @@
 
                 <div class="row" id="card-row">
                    <div class="swiper mySwiper swiper-h">
-                    <div class="swipper-wrapper">
+                    <div class="swiper-wrapper">
                         <div class="swiper-slide" id="slider">
-                            <div class="col-4 col-sm-12 col-xs-12 card p-3 m-2 bg-dark text-white text-center">
-                            
-                                <p class="card-text para"> Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nullam congue sem pellentesque quis. Cursis volutat congue lorem alliquam, odio alliqam sed vitae.</p>
+                            <div class="card mx-auto bg-dark text-white text-center" style="width: 18rem;" id="cardImg">
+                                <div class="card-body text-center">
+                                    <p class="card-text"> Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nullam congue sem pellentesque quis. Cursis volutat congue lorem alliquam, odio alliqam sed vitae.</p>
     
-                                <h5 class="header-5">Promise Nwanozie</h5>
-                                <h6 class="header-6">CEO CerebroHive Technologies</h6>
+                                    <h5 class="card-content">Promise Nwanozie</h5>
+                                    <h6 class="card-content">CEO CerebroHive Technologies</h6>
+                                </div>
                             </div> 
                        
-                            <div class="col-3 col-sm-12 col-xs-12 card p-3 m-4 bg-dark text-white text-center">
-                                <p class="card-text para"> Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nullam congue sem pellentesque quis. Cursis volutat congue lorem alliquam, odio alliqam sed vitae.</p>
+                            <div class="card bg-dark text-white text-center" style="width: 18rem;" id="cardImg">
+                                <div class="card-body text-center">
+                                    <p class="card-text"> Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nullam congue sem pellentesque quis. Cursis volutat congue lorem alliquam, odio alliqam sed vitae.</p>
     
-                                <h5 class="header-5">Promise Nwanozie</h5>
-                                <h6 class="header-6">CEO CerebroHive Technologies</h6>
+                                    <h5 class="card-content">Promise Nwanozie</h5>
+                                    <h6 class="card-content">CEO CerebroHive Technologies</h6>
+                                </div>
                             </div>    
                        
     
-                            <div class="col-4 col-sm-12 col-xs-12 card p-3 m-2 bg-dark text-white text-center">
-                                <p class="card-text para"> Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nullam congue sem pellentesque quis. Cursis volutat congue lorem alliquam, odio alliqam sed vitae.</p>
+                            <div class="card bg-dark text-white text-center" style="width: 18rem;" id="cardImg">
+                                <div class="card-body text-center">
+                                    <p class="card-text"> Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nullam congue sem pellentesque quis. Cursis volutat congue lorem alliquam, odio alliqam sed vitae.</p>
     
-                                <h5 class="header-5">Promise Nwanozie</h5>
-                                <h6 class="header-6">CEO CerebroHive Technologies</h6> 
+                                    <h5 class="card-content">Promise Nwanozie</h5>
+                                    <h6 class="card-content">CEO CerebroHive Technologies</h6> 
+                                </div>
+                            </div>
                         </div>
+
+                        <!-- <div class="swiper-pagination"></div> -->
+
+                        <div class="swiper-slide" id="slider">
+                            <div class="card mx-auto bg-dark text-white text-center" style="width: 18rem;" id="cardImg">
+                                <div class="card-body text-center">
+                                    <p class="card-text"> Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nullam congue sem pellentesque quis. Cursis volutat congue lorem alliquam, odio alliqam sed vitae.</p>
+    
+                                    <h5 class="card-content">Promise Nwanozie</h5>
+                                    <h6 class="card-content">CEO CerebroHive Technologies</h6>
+                                </div>
+                            </div> 
+                       
+                            <div class="card bg-dark text-white text-center" style="width: 18rem;" id="cardImg">
+                                <div class="card-body text-center">
+                                    <p class="card-text"> Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nullam congue sem pellentesque quis. Cursis volutat congue lorem alliquam, odio alliqam sed vitae.</p>
+    
+                                    <h5 class="card-content">Promise Nwanozie</h5>
+                                    <h6 class="card-content">CEO CerebroHive Technologies</h6>
+                                </div>
+                            </div>    
+                       
+    
+                            <div class="card bg-dark text-white text-center" style="width: 18rem;" id="cardImg">
+                                <div class="card-body text-center">
+                                    <p class="card-text"> Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nullam congue sem pellentesque quis. Cursis volutat congue lorem alliquam, odio alliqam sed vitae.</p>
+    
+                                    <h5 class="card-content">Promise Nwanozie</h5>
+                                    <h6 class="card-content">CEO CerebroHive Technologies</h6> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="swiper-pagination"></div> -->
+
+                        <div class="swiper-slide" id="slider">
+                            <div class="card mx-auto bg-dark text-white text-center" style="width: 18rem;" id="cardImg">
+                                <div class="card-body text-center">
+                                    <p class="card-text"> Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nullam congue sem pellentesque quis. Cursis volutat congue lorem alliquam, odio alliqam sed vitae.</p>
+    
+                                    <h5 class="card-content">Promise Nwanozie</h5>
+                                    <h6 class="card-content">CEO CerebroHive Technologies</h6>
+                                </div>
+                            </div> 
+                       
+                            <div class="card bg-dark text-white text-center" style="width: 18rem;" id="cardImg">
+                                <div class="card-body text-center">
+                                    <p class="card-text"> Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nullam congue sem pellentesque quis. Cursis volutat congue lorem alliquam, odio alliqam sed vitae.</p>
+    
+                                    <h5 class="card-content">Promise Nwanozie</h5>
+                                    <h6 class="card-content">CEO CerebroHive Technologies</h6>
+                                </div>
+                            </div>    
+                       
+    
+                            <div class="card bg-dark text-white text-center" style="width: 18rem;" id="cardImg">
+                                <div class="card-body text-center">
+                                    <p class="card-text"> Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nullam congue sem pellentesque quis. Cursis volutat congue lorem alliquam, odio alliqam sed vitae.</p>
+    
+                                    <h5 class="card-content">Promise Nwanozie</h5>
+                                    <h6 class="card-content">CEO CerebroHive Technologies</h6> 
+                                </div>
+                            </div>
                         </div>
                     </div>
+
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                    </div>     
                 </div>
             </div>
@@ -333,10 +470,10 @@
         },
 
           // Navigation arrows
-        // navigation: {
-        //   nextEl: '.swiper-button-next',
-        //   prevEl: '.swiper-button-prev',
-        // },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
       });
       var swiper2 = new Swiper(".mySwiper2", {
         direction: "vertical",
