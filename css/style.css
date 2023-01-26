@@ -354,7 +354,7 @@ nav {
     z-index: 9;
 } */
 
-nav ul li a {
+.navbar ul li a {
     color: #fff;
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -362,8 +362,12 @@ nav ul li a {
     /* z-index: 9; */
 }
 
-nav ul li a:hover {
-    color: #1d1c1d;
+.navbar ul li a:focus {
+    color: #D4B877;
+}
+
+.navbar ul li a:hover, a:active  {
+    color: #D4B877;
 }
 
 .color-me {
@@ -826,7 +830,7 @@ canvas {
 }
 
 .space {
-    padding: 0 0px 0 75px;
+    padding: 0 0px 0 76px;
 }
 
 .pad {
