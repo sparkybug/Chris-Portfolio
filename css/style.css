@@ -828,3 +828,16 @@ canvas {
 .space {
     padding: 0 0px 0 75px;
 }
+
+.pad {
+    padding: 0 2px 0 15px;
+    margin: 0px -2px 0 7px;
+}
+
+.foot {
+    margin-top: 15px;
+}
+
+.foot a {
+    margin-top: 10px;
+}
