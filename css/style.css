@@ -812,7 +812,7 @@ canvas {
 
 #box img {
     /* min-height: 30vh; */
-    max-width: 40% !important;
+    max-width: 60% !important;
     /* max-width: 50px; */
     /* margin-top: 50px; */
 }
@@ -823,4 +823,8 @@ canvas {
 
 .anim.w3-animate-zoom {
     animation: 1.6s ease 0s normal none 1 running animatezoom;
+}
+
+.space {
+    padding: 0 0px 0 75px;
 }
