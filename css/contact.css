@@ -35,14 +35,14 @@ nav {
     height: 63vh;
     width: 100%;
     position: absolute;
-    z-index: 4;
+    z-index: 999;
 }
 
 #particles-js1 {
     height: 120vh;
     width: 100%;
     position: absolute;
-    z-index: 4;
+    z-index: 999;
 }
 
 #particles-js2 {
@@ -251,10 +251,11 @@ canvas {
 }
 
 #cardImg {
-    border: 1.5px solid #D4B877;
+    /* border: 1px solid #fff; */
     border-radius: 10px;
     margin: 10px 0;
     padding: 20px;
+    z-index: -99;
 }
 
 #cardImg img{
@@ -262,6 +263,10 @@ canvas {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#cardImg:hover {
+    border: 3px solid #D4B877;
 }
 
 #cardImg h4 {
