@@ -25,7 +25,7 @@ nav {
     z-index: 9;
 } */
 
-nav ul li a {
+.navbar ul li a {
     color: #fff;
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -33,8 +33,8 @@ nav ul li a {
     /* z-index: 9; */
 }
 
-nav ul li a:hover {
-    color: #1d1c1d;
+.navbar ul li a:hover {
+    color: #D4B877;
 }
 
 .color-me {
@@ -215,9 +215,26 @@ canvas {
 
 #box img {
     /* min-height: 30vh; */
-    max-width: 40% !important;
+    max-width: 70% !important;
     /* max-width: 50px; */
     /* margin-top: 50px; */
+}
+
+.space {
+    padding: 0 0px 0 74px;
+}
+
+.pad {
+    padding: 0 2px 0 2px;
+    margin: 0px -2px 0 7px;
+}
+
+.foot {
+    margin-top: 15px;
+}
+
+.foot a {
+    margin-top: 10px;
 }
 
 @media only screen and (max-width: 600px) {
