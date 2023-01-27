@@ -483,3 +483,20 @@ canvas {
     /* max-width: 50px; */
     /* margin-top: 50px; */
 }
+
+.space {
+    padding: 0 0px 0 74px;
+}
+
+.pad {
+    padding: 0 2px 0 2px;
+    margin: 0px -20px 0 7px;
+}
+
+.foot {
+    margin-top: 15px;
+}
+
+.foot a {
+    margin-top: 10px;
+}
