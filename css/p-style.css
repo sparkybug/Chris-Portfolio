@@ -215,11 +215,11 @@ nav {
     color: #1d1c1d;
 }
 
-nav ul {
+.navbar ul {
     z-index: 9;
 }
 
-nav ul li a {
+.navbar ul li a {
     color: #fff;
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -228,8 +228,9 @@ nav ul li a {
     list-style-type: none;
 }
 
-nav ul li a:hover {
-    color: #1d1c1d;
+.navbar ul li a:hover {
+    color: #D4B877;
+    /* background-color: none; */
 }
 
 
