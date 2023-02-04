@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: block;
+    overflow-x: hidden;
+}
+
+/* Navbar styling */
+nav {
+    background-color: #fff;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-transform: none;
+    font-weight: 900;
+    color: #1d1c1d;
+}
+
+/* nav ul {
+    z-index: 9;
+} */
+
+.navbar ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto 10px;
+    /* z-index: 9; */
+}
+
+.navbar ul li a:focus {
+    color: #D4B877;
+}
+
+.navbar ul li a:hover, a:active  {
+    color: #D4B877;
+}
+
+.color-me {
+    color: #fff;
+}
+
+/* first section */
+.first {
+    display: flex;
+    padding-top: 210px;
+    padding-bottom: 210px;
+    background-color: #fff;
+    height: 630px;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.first .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#first .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#first img {
+    min-height: 30vh;
+    max-width: 130% !important;
+    /* width: 50000px; */
+    /* margin-top: 50px; */
+}
+
+/* Styling for footer */
+#box ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding-top: 10px;
+    /* padding-left: 50px;
+    margin-left: 20px; */
+  }
+
+#box ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline;
+}
+  
+#box li {
+    float: left;
+    /* margin: 10px auto; */
+    /* padding: auto 20px; */
+}
+  
+/* #box li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 16px;
+    text-decoration: none;
+  } */
+
+#box .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#box .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#box img {
+    /* min-height: 30vh; */
+    max-width: 60% !important;
+    /* max-width: 50px; */
+    /* margin-top: 50px; */
+}
+
+.anim.w3-animate-top {
+    animation: 1.6s ease 0s normal none 1 running animatetop;
+}
+
+.anim.w3-animate-zoom {
+    animation: 1.6s ease 0s normal none 1 running animatezoom;
+}
+
+.space {
+    padding: 0 0px 0 76px;
+}
+
+.pad {
+    padding: 0 2px 0 15px;
+    margin: 0px -2px 0 7px;
+}
+
+.foot {
+    margin-top: 15px;
+}
+
+.foot a {
+    margin-top: 10px;
+}
