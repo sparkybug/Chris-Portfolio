@@ -51,8 +51,8 @@ nav {
 
 /* first section */
 .first {
-    display: flex;
-    padding-top: 210px;
+    display: inline-block;
+    padding-top: 150px;
     padding-bottom: 210px;
     background-color: #fff;
     height: 630px;
@@ -73,9 +73,9 @@ nav {
 }
 
 #first img {
-    min-height: 30vh;
-    max-width: 130% !important;
-    /* width: 50000px; */
+    /* min-height: 30vh; */
+    /* max-width: 50px !important; */
+    /* width: 50px; */
     /* margin-top: 50px; */
 }
 
