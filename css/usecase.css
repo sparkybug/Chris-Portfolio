@@ -53,9 +53,9 @@ nav {
 .first {
     display: flex;
     padding-top: 150px;
-    padding-bottom: 210px;
+    /* padding-bottom: 210px; */
     background-color: #fff;
-    height: 630px;
+    /* height: 800px; */
     width: 100%;
     overflow: hidden;
     margin: 0;
@@ -145,13 +145,10 @@ nav {
 }
 
 .fifth img {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 100%;
     padding-bottom: 50px;
 }
 
@@ -160,8 +157,6 @@ nav {
     list-style-type: none;
     overflow: hidden;
     padding-top: 10px;
-    /* padding-left: 50px;
-    margin-left: 20px; */
   }
 
 #box ul li a {
@@ -212,7 +207,7 @@ nav {
 }
 
 .space {
-    padding: 0 0px 0 76px;
+    padding: 0 0px 0 74px;
 }
 
 .pad {
