@@ -89,6 +89,32 @@ nav {
     text-align: center;
 }
 
+.second .padding {
+    margin: 10px 0;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.third h2 {
+    text-align: center;
+    color: #88888D;
+    font-weight: 650;
+    padding-bottom: 50px;
+}
+
+.third p {
+    margin-top: 30px;
+}
+
+.third span {
+    font-weight: bolder;
+}
+
 /* Styling for footer */
 #box ul {
     list-style-type: none;
